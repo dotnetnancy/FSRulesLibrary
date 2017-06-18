@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97473750-768B-4578-889F-3E734661167A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Diagrams</RootNamespace>
+    <AssemblyName>Diagrams</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\src\DotNetNancy.Data\DotNetNancy.Data\DotNetNancy.Core.Data.csproj">
+      <Project>{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}</Project>
+      <Name>DotNetNancy.Core.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary\DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary.csproj">
+      <Project>{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.Common\DotNetNancy.Rules.RuleSet.Common.csproj">
+      <Project>{64D042DF-3C20-4288-9350-43342D1CA517}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.DataAccess\DotNetNancy.Rules.RuleSet.DataAccess.csproj">
+      <Project>{AE90FE7C-0322-4CBA-9F39-833068F8C718}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.Execution\DotNetNancy.Rules.RuleSet.MSRuleSetExecution.csproj">
+      <Project>{76CC7279-99BF-496B-88F4-BAE811E96151}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.MSRuleSetExecution</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary\DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary.csproj">
+      <Project>{796BA5EF-8096-4DA8-81D7-4A5A5465183B}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.MSRuleSetTranslation\DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.csproj">
+      <Project>{4A7C9FD2-9250-42F4-B62F-72C2144A0F84}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.MSRuleSetTranslation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.RuleSetDefinition\DotNetNancy.Rules.RuleSet.RuleSetDefinition.csproj">
+      <Project>{ED541090-FB24-4041-86DA-CFE065613251}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.RuleSetDefinition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\DotNetNancy.Rules.RuleSet.Translation\DotNetNancy.Rules.RuleSet.Translation.csproj">
+      <Project>{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.Translation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data Provider Pattern.cd" />
+    <None Include="Rules Library.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

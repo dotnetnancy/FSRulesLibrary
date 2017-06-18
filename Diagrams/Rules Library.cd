@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LinqCollectionExpressionLibrary.CollectionProcessingExpressions">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Action" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Actions">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Clause" BaseTypeListCollapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Clauses">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.CollectionField">
+    <Position X="11" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Condition">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.DictionaryCollectionMemberField">
+    <Position X="0.5" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.EnumerableCollectionMemberField">
+    <Position X="4" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.EnumField">
+    <Position X="7.5" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Equation" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.EquationField">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.EquationGroup" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.EquationOperator">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.EquationValue">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Field">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Fields">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Item">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.LogicalOperator" BaseTypeListCollapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.MasterEquationGroup">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.NameValuePair">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Operator">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.Operators">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleFields">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleOperators">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleOperatorSet">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleSetDefinition">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleSetDefinitions">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleSetMetaDataDefinition">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.TrueAction" BaseTypeListCollapsed="true">
+    <Position X="27" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlOperatorTypeConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.CustomLoggers" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlSetTypeConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlRuleElementConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.InvocationTypeMethodNameConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlRuleSetDefinitionConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlClauseTypeConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlCollectionTypeConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DotNetNancy.Rules.RuleSet.Translation.Constants.XmlInvocationTypeConstants" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.Translation.TranslationHelper">
+    <Position X="21.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.AssignPropertyAction">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.WildCardSearchExpression">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.CodeDomObject">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.CompareTo">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.ContainsString">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.EndsWithString">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.Helper">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.In">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.InsertRuleStatsAction">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.LogicalAND">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.LogicalNOT">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.LogicalOR">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.LogRuleAction">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.MethodInvocationAction">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.MSRuleSetTranslationResult">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.RuleDefToRuleSet&lt;T&gt;">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.RuleStat">
+    <Position X="27" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.RuleStats">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.SingleBooleanResultExpression">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.StartsWithString">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.StringCompare">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.Translator&lt;T&gt;">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.TranslationValidationResult">
+    <Position X="23.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.NotEqual">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetExecution.Evaluator&lt;T&gt;">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetExecution.ExecutionEngine&lt;T&gt;">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetExecution.Executor&lt;T&gt;">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetExecution.MSRuleSetEvaluationResult">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetExecution.MSRuleSetExecutionResult">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.MSRuleSetExecution.RuleSetRuntimeEvaluationException">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.IRuleStats">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.IStackable">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="DotNetNancy.Rules.RuleSet.RuleSetDefinition.RuleElementTypes">
+    <Position X="23.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.ClauseTypes">
+    <Position X="3.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.CollectionTypes">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.ComparisonType">
+    <Position X="18.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.InvocationTypes">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.OperatorTypes">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.SetTypes">
+    <Position X="25.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="DotNetNancy.Rules.RuleSet.Translation.StringComparisonType">
+    <Position X="27" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Tahoma" Size="9.75" />
+</ClassDiagram>

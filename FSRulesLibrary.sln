@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary", "src\DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary\DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary.csproj", "{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.Common", "src\DotNetNancy.Rules.RuleSet.Common\DotNetNancy.Rules.RuleSet.Common.csproj", "{64D042DF-3C20-4288-9350-43342D1CA517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.DataAccess", "src\DotNetNancy.Rules.RuleSet.DataAccess\DotNetNancy.Rules.RuleSet.DataAccess.csproj", "{AE90FE7C-0322-4CBA-9F39-833068F8C718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary", "src\DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary\DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary.csproj", "{796BA5EF-8096-4DA8-81D7-4A5A5465183B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.MSRuleSetExecution", "src\DotNetNancy.Rules.RuleSet.Execution\DotNetNancy.Rules.RuleSet.MSRuleSetExecution.csproj", "{76CC7279-99BF-496B-88F4-BAE811E96151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.MSRuleSetTranslation", "src\DotNetNancy.Rules.RuleSet.MSRuleSetTranslation\DotNetNancy.Rules.RuleSet.MSRuleSetTranslation.csproj", "{4A7C9FD2-9250-42F4-B62F-72C2144A0F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.RuleSetDefinition", "src\DotNetNancy.Rules.RuleSet.RuleSetDefinition\DotNetNancy.Rules.RuleSet.RuleSetDefinition.csproj", "{ED541090-FB24-4041-86DA-CFE065613251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Rules.RuleSet.Translation", "src\DotNetNancy.Rules.RuleSet.Translation\DotNetNancy.Rules.RuleSet.Translation.csproj", "{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Core.Data", "src\DotNetNancy.Data\DotNetNancy.Data\DotNetNancy.Core.Data.csproj", "{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagrams", "Diagrams\Diagrams.csproj", "{97473750-768B-4578-889F-3E734661167A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D042DF-3C20-4288-9350-43342D1CA517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D042DF-3C20-4288-9350-43342D1CA517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D042DF-3C20-4288-9350-43342D1CA517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D042DF-3C20-4288-9350-43342D1CA517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE90FE7C-0322-4CBA-9F39-833068F8C718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE90FE7C-0322-4CBA-9F39-833068F8C718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE90FE7C-0322-4CBA-9F39-833068F8C718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE90FE7C-0322-4CBA-9F39-833068F8C718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796BA5EF-8096-4DA8-81D7-4A5A5465183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796BA5EF-8096-4DA8-81D7-4A5A5465183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796BA5EF-8096-4DA8-81D7-4A5A5465183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796BA5EF-8096-4DA8-81D7-4A5A5465183B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CC7279-99BF-496B-88F4-BAE811E96151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CC7279-99BF-496B-88F4-BAE811E96151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CC7279-99BF-496B-88F4-BAE811E96151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CC7279-99BF-496B-88F4-BAE811E96151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7C9FD2-9250-42F4-B62F-72C2144A0F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7C9FD2-9250-42F4-B62F-72C2144A0F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7C9FD2-9250-42F4-B62F-72C2144A0F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7C9FD2-9250-42F4-B62F-72C2144A0F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED541090-FB24-4041-86DA-CFE065613251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED541090-FB24-4041-86DA-CFE065613251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED541090-FB24-4041-86DA-CFE065613251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED541090-FB24-4041-86DA-CFE065613251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97473750-768B-4578-889F-3E734661167A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97473750-768B-4578-889F-3E734661167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97473750-768B-4578-889F-3E734661167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97473750-768B-4578-889F-3E734661167A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED541090-FB24-4041-86DA-CFE065613251}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetNancy.Rules.RuleSet.RuleSetDefinition</RootNamespace>
+    <AssemblyName>DotNetNancy.Rules.RuleSet.RuleSetDefinition</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\DotNetNancy.Rules.RuleSet.RuleSetDefinition\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\RuleSetDefinition\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions.cs" />
+    <Compile Include="Clauses.cs" />
+    <Compile Include="Clause.cs" />
+    <Compile Include="Action.cs" />
+    <Compile Include="CollectionField.cs" />
+    <Compile Include="DictionaryCollectionMemberField.cs" />
+    <Compile Include="Condition.cs" />
+    <Compile Include="EnumField.cs" />
+    <Compile Include="Equation.cs" />
+    <Compile Include="EquationField.cs" />
+    <Compile Include="EquationGroup.cs" />
+    <Compile Include="EquationOperator.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="Fields.cs" />
+    <Compile Include="IRuleStats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="ListCollectionMemberField.cs" />
+    <Compile Include="LogicalOperator.cs" />
+    <Compile Include="MasterEquationGroup.cs" />
+    <Compile Include="NameValuePair.cs" />
+    <Compile Include="Operators.cs" />
+    <Compile Include="QueueableBase.cs" />
+    <Compile Include="RuleMetaDataDefinition.cs" />
+    <Compile Include="RuleOperators.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RuleFields.cs" />
+    <Compile Include="RuleSetDefinition.cs" />
+    <Compile Include="RuleSetDefinitions.cs" />
+    <Compile Include="Operator.cs" />
+    <Compile Include="TrueAction.cs" />
+    <Compile Include="UICodeParseExample\RuleElementTypes.cs" />
+    <Compile Include="RuleOperatorSet.cs" />
+    <Compile Include="Value.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetNancy.Rules.RuleSet.DataAccess\DotNetNancy.Rules.RuleSet.DataAccess.csproj">
+      <Project>{AE90FE7C-0322-4CBA-9F39-833068F8C718}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetNancy.Rules.RuleSet.Translation\DotNetNancy.Rules.RuleSet.Translation.csproj">
+      <Project>{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.Translation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

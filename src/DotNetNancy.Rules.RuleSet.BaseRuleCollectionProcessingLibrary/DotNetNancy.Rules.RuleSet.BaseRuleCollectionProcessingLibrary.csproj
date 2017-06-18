@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C95C2FE9-1B8F-42B5-8297-E308632EA1E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary</RootNamespace>
+    <AssemblyName>DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\DotNetNancy.Rules.RuleSet.BaseRuleCollectionProcessingLibrary\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\BaseRuleCollectionProcessing\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseRuleCollectionProcessing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary\DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary.csproj">
+      <Project>{796BA5EF-8096-4DA8-81D7-4A5A5465183B}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.LinqCollectionExpressionLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetNancy.Rules.RuleSet.RuleSetDefinition\DotNetNancy.Rules.RuleSet.RuleSetDefinition.csproj">
+      <Project>{ED541090-FB24-4041-86DA-CFE065613251}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.RuleSetDefinition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetNancy.Rules.RuleSet.Translation\DotNetNancy.Rules.RuleSet.Translation.csproj">
+      <Project>{3146E1FE-D740-4F1B-AB9B-91B2FDC306BE}</Project>
+      <Name>DotNetNancy.Rules.RuleSet.Translation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

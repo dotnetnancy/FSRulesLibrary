@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.InitGeneralProvider">
+    <Position X="12.5" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.GeneralProvider">
+    <Position X="6.75" Y="6.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.ProviderList">
+    <Position X="14" Y="1.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.InitRuleSetDefinitionsProvider">
+    <Position X="10.5" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.RuleSetDefinitionsProvider">
+    <Position X="3.75" Y="6.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.InitRuleFieldsProvider">
+    <Position X="17.25" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.RuleFieldsProvider">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.InitRuleOperatorsProvider">
+    <Position X="15" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.RuleOperatorsProvider">
+    <Position X="2" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.InitRuleStatsProvider">
+    <Position X="12.75" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.RuleStatsProvider">
+    <Position X="0.75" Y="6.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.SectionConfig">
+    <Position X="10.25" Y="6" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.SqlGeneralProvider">
+    <Position X="6.75" Y="9.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.SqlRuleFieldsProvider">
+    <Position X="8" Y="3.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.SqlRuleOperatorsProvider">
+    <Position X="3" Y="3.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.SqlRuleSetDefinitionsProvider">
+    <Position X="3.75" Y="9.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.SqlRuleStatsProvider">
+    <Position X="0.75" Y="9.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.XmlFileRuleFieldsProvider">
+    <Position X="5.75" Y="3.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DotNetNancy.Rules.RuleSet.DataAccess.XmlFileRuleOperatorsProvider">
+    <Position X="0.75" Y="3.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Tahoma" Size="9.75" />
+</ClassDiagram>

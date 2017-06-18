@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE90FE7C-0322-4CBA-9F39-833068F8C718}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetNancy.Rules.RuleSet.DataAccess</RootNamespace>
+    <AssemblyName>DotNetNancy.Rules.RuleSet.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\DotNetNancy.Rules.RuleSet.DataAccess\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\build\DataAccess\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseDatabase.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DTO\RuleFields.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DTO\RuleOperators.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\ApplicationData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\Application_TypeData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\Application_UserData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\ConfigurationFileData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\ConfigurationTypeData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\RuleDefinitionData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\RuleStatisticData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\TypeData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\Type_UserData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedDtos\UserStoreData.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\ApplicationList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\Application_TypeList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\Application_UserList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\ConfigurationFileList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\ConfigurationTypeList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\RuleDefinitionList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\RuleStatisticList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\TypeList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\Type_UserList.cs" />
+    <Compile Include="GeneratedClasses\GeneratedLists\UserStoreList.cs" />
+    <Compile Include="RuleStatsProvider.cs" />
+    <Compile Include="SqlGeneralProvider.cs" />
+    <Compile Include="SqlRuleSetDefinitionsProvider.cs" />
+    <Compile Include="RuleDefinitionsProvider.cs" />
+    <Compile Include="RuleFieldsProvider.cs" />
+    <Compile Include="SqlRuleFieldsProvider.cs" />
+    <Compile Include="SqlRuleStatsProvider.cs" />
+    <Compile Include="XmlRuleFieldsProvider.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="ProviderList.cs" />
+    <Compile Include="RuleOperatorsProvider.cs" />
+    <Compile Include="SectionConfig.cs" />
+    <Compile Include="SqlRuleOperatorsProvider.cs" />
+    <Compile Include="XmlRuleOperatorsProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetNancy.Data\DotNetNancy.Data\DotNetNancy.Core.Data.csproj">
+      <Project>{CCC0FC9B-07FD-4F5A-97DD-EAA97B4F9259}</Project>
+      <Name>DotNetNancy.Core.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
